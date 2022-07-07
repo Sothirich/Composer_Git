@@ -7,7 +7,6 @@
         $pass=htmlentities($_POST['pass']);
 
          
-         
         $sql = "SELECT password from admin WHERE  username=?;";  // query password from input email 
         $stmt =$pdo->prepare($sql);
 

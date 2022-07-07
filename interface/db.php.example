@@ -1,5 +1,5 @@
 <?php 
-     $user = 'root';
+     $user = '';
      $password = '';
      $dbname = '';
 ?>
