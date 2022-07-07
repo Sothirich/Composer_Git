@@ -1,3 +1,3 @@
 /vendor
-composer.lock
-interface/db.php
+/composer.lock
+/interface/db.php
