@@ -1,5 +1,5 @@
-#Tutorial Usage
-Copy dp.php.example and rename it to dp.php
+# Tutorial Usage
+Copy `dp.php.example` and rename it to `dp.php`
 
-#*NOTE:
+# **NOTE:
 Do not make change to `db.php.example`.
