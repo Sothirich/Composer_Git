@@ -9,5 +9,5 @@
  - Make Changes alert
 
 # Resource
- Datable: https://datatables.net/examples/styling/bootstrap5.html
- SweetAlert: https://sweetalert2.github.io/
+ - Datable: https://datatables.net/examples/styling/bootstrap5.html
+ - SweetAlert: https://sweetalert2.github.io/
