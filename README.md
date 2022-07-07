@@ -4,8 +4,8 @@
 
 # MileStone
  - Create a single page include User table with CRUD option
- - Create Create User form
- - Create Update User form
+ - Create Add Product form
+ - Create Update Product form
  - Make Changes alert
 
 # Resource
