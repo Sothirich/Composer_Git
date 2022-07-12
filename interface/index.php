@@ -113,13 +113,11 @@
                         <input type="password" class="form-control text-center" id="pass" name="pass" placeholder="Password" required>
                         <?php 
                             if (isset($invalidPassword)) {
-                            echo "<div class='text-danger'>" . $invalidPassword . "</div>";
-                            $_POST['pass'] = "";
+                                echo "<div class='text-danger'>" . $invalidPassword . "</div>";
+                                $_POST['pass'] = "";
                             }
                         ?>
                     </div>
-
-
 
                     <div class="mb-3 text-center d-flex justify-content-center">
                         <input type="submit" class="form-control text-center w-50 bg-danger text-white text-center" id="submit" name="submit" value="Create">

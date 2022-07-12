@@ -12,8 +12,6 @@ if (isset($_SESSION['id']) || isset($_SESSION['username']) || isset($_SESSION['e
         $email = htmlentities($_POST['email']);
         $pass = md5(htmlentities($_POST['pass']));
 
-
-
         $sql = "SELECT password from users WHERE  email=?;";  // query password from input email 
         $stmt = $pdo->prepare($sql);
 
@@ -122,9 +120,7 @@ if (isset($_SESSION['id']) || isset($_SESSION['username']) || isset($_SESSION['e
 
     </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
