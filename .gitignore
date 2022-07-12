@@ -1,3 +1,4 @@
 /vendor
 composer.lock
 interface/db.php
+config/db.php
